@@ -1,0 +1,92 @@
+:root {
+    --headerHeight: 100px;
+    --sonyBlue: rgb(34, 74, 224)
+}
+
+/* HEADER */
+
+header {
+    height: var(--headerHeight);
+}
+
+.sonyLogo {
+    height: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+/* MAIN */
+
+    /* JUMBOTRON */
+    
+    .jumbotron {
+        margin-top: var(--headerHeight);
+        height: 75vh;
+        box-sizing: border-box;
+        background-image: url(../img/jumbo-bg.png);
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .jumbotron button,
+    .latestJumbo button {
+        width: fit-content;
+        background-color: rgb(228, 67, 35);
+        border: none;
+        color: white;
+    }
+    
+    .listingThumb img {
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .sonyBlueText {
+        color: var(--sonyBlue);
+    }
+
+    section .latestGames {
+        background-color: rgb(24, 24, 24);
+    }
+
+    .latestJumbo {
+        margin-top: var(--headerHeight);
+        box-sizing: border-box;
+        background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+        background-size: cover;
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .listingThumb div {
+        margin-bottom: 20px;
+    }
+
+    .playPlus {
+        background-color: rgb(197, 194, 193);
+    }
+
+    .playColor {
+        color: var(--sonyBlue);
+    }
+   
+    .playNow {
+        background-color: rgb(57, 60, 85);
+    }
+
+    footer {
+        background-color: var(--sonyBlue);
+    }
+
+    footer .img-fluid {
+        height: 60px;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+    }
